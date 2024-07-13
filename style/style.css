@@ -1,0 +1,221 @@
+
+
+.azeret-mono-normal {
+  font-family: "Azeret Mono",;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+*{
+   margin:0;
+   padding: 0;
+}
+#hero{
+    height: 708px;
+    background-image: url(../assets/Hero-bg.png);
+    background-size: cover;
+    background-position: center;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#hero .hero-content{
+    width: 1084px;
+    
+
+}
+#hero .hero-content .heading{
+    color: rgb(13, 19, 33);
+font-family: "Azeret Mono",;
+font-size: 52px;
+font-weight: 800;
+line-height: 68px;
+letter-spacing: 0%;
+text-align: center;
+}
+
+#hero .hero-content{
+ 
+text-align: center;
+}
+#hero .hero-content .description {
+    color: rgb(13, 19, 33);
+    font-family: "Azeret Mono";
+    font-size: 14px;
+    font-weight: 550;
+    line-height: 26px;
+    letter-spacing: 0%;
+    opacity: 70%;
+}
+
+#hero .hero-content .click{
+     width: 226px;
+     height: 71px;
+     margin: 28px 0px;
+     padding: 19px 22px 19px 22px;
+    border-radius: 8px;
+    background-color: rgb(13, 19, 33);
+    color: rgb(255, 255, 255);
+    font-family: "Azeret Mono";
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 0%;
+    text-align: center;
+    }
+
+#part {
+    width: 1600px;
+    margin: 0 auto;
+    margin-top: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.02);
+}
+#part .parent{
+
+     margin: 67px;
+    }
+    #part .p1{
+        width: 1250px;
+        padding: 48px;
+        border-radius: 16px;
+        background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+    }
+
+ .heading2{
+    color: rgb(13, 19, 33);
+    font-size: 40px;
+    font-weight: bolder;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+#part .parent .h2d .desp{ 
+    
+color: rgb(13, 19, 33);
+font-size: 20px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+opacity: 70%;
+margin: 20px;
+}
+
+#part .layer1{
+    display: flex;
+   justify-content: space-between;
+align-items: center;
+margin: 32px 0px;
+}
+#part .code{
+    margin: 32px 0px;
+    
+}
+
+#part .layer1 .h3{
+color: rgba(13, 19, 33, 0.7);
+font-size: 28px;
+font-weight: 700;
+line-height: 36px;
+letter-spacing: 0%;
+text-align: left;
+width: 410px;
+}
+
+#part .layer1 .desp2{
+    margin: 16px 0px;
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+   font-weight: 400;
+   line-height: 26px;
+  letter-spacing: 0%;
+  text-align: left;
+  width: 600px;
+}
+#part .layer1 .btn{
+    width: 150px;
+    height: 48px;
+    padding: 12px 20px 12px 20px;
+    box-sizing: border-box;
+     border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+   font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+   }
+
+   
+#part2 {
+    width: 1600px;
+    background: rgba(13, 19, 33, 0.02);
+    margin: 0 auto;
+}
+    
+
+#part2 .layer2{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 1250px;
+    margin: 0 auto;
+    
+}
+.g3{
+    width: 300px;
+}
+
+.h4 {
+    color: rgba(13, 19, 33, 0.7);
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+    width: 410px;}
+
+.desp3{
+    margin: 16px 0px;
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+   font-weight: 400;
+   line-height: 26px;
+  letter-spacing: 0%;
+  text-align: left;
+  width: 600px;
+}
+
+.btn3{
+    width: 150px;
+    height: 48px;
+    padding: 12px 20px 12px 20px;
+    box-sizing: border-box;
+     border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+   font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    
+}
+#part3 {
+    width: 1600px;
+    background: rgba(13, 19, 33, 0.02);
+    margin: 0 auto;
+}
+ 
+#part3 .layer3{
+    display: flex;
+   justify-content: space-between;
+align-items: center;
+margin: 0 auto;
+width: 1250px;
+padding: 48px;
+border-radius: 16px;
+background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+}

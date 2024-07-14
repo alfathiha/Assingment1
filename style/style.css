@@ -359,7 +359,7 @@ margin: 16px 0;
 .hs-desp{
     width: 606px;
 height: 52px;
-margin: 16px 0px;
+margin: 16px 0;
 color: rgb(255, 255, 255);
 font-size: 16px;
 font-weight: 400;
@@ -418,4 +418,28 @@ text-align: center;
 border: none;
 background:  rgb(255, 255, 255);;
 }
+#foot{
+   width: auto;
+   height: 100px;
+}
+.footer{
+background: rgba(13, 19, 33, 0.03);
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 32px 150px 32px 150px;
+}
+.footer-child1{
+    color: rgb(13, 19, 33);
+font-size: 20px;
+font-weight: 600;
+line-height: 23px;
+letter-spacing: 0%;
+text-align: center;
+}
 
+.footer-child2
+{
+  display: flex;
+  gap: 24px;
+}
